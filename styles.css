@@ -1,0 +1,190 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.top-page {
+  background: url(images/24h_du_mans.jpeg);
+  background-size: cover;
+  padding: 20px;
+  height: 80vh;
+  position: relative;
+}
+
+.logo {
+  color: white;
+  max-width: 20%;
+  text-align: center;
+  font-size: 28px;
+  margin: 0 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(1, 1, 1, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.big-title {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 80px;
+  background-color: rgba(1, 1, 1, 0.5);
+  max-width: 60%;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
+
+.landing-page {
+  padding: 20px 50px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav li:hover {
+  text-shadow: 1px 1px 2px white;
+}
+
+/* ----------------------------Section volants----------------------------- */
+
+.volants {
+  background: url(images/Ferrari_le_mans.jpg);
+  background-size: cover;
+  padding: 20px;
+  min-height: 100vh;
+  max-height: fit-content;
+  position: relative;
+}
+
+.title {
+  background-color: rgba(1, 1, 1, 0.5);
+  color: white;
+  font-size: 50px;
+  margin: 50px;
+  padding: 18px;
+  max-width: fit-content;
+  border-radius: 15px;
+  backdrop-filter: blur(2px);
+}
+
+.partage {
+  background-color: rgba(50, 50, 50, 0.6);
+  color: white;
+  width: fit-content;
+  padding: 8px;
+  margin: 20px auto;
+  border-radius: 7px;
+}
+
+.search {
+  border: 0;
+  outline: 0;
+  display: flex;
+  margin: 20px auto;
+  width: 15%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(58, 58, 58, 0.966);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px auto;
+  top: 30%;
+  list-style: none;
+  padding: 0;
+  width: 82%;
+}
+
+.list li {
+  background-color: rgba(50, 50, 50, 0.98);
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.list li:hover {
+  background-color: rgba(83, 83, 83, 0.98);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Styles pour l'affichage côte à côte et la largeur maximale des images */
+.image-container {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 2%;
+  background-color: rgba(50, 50, 50, 0.6);
+  padding: 8px 15px;
+  border-radius: 15px;
+  /* Ajoutez une marge entre les images si nécessaire */
+}
+
+/* Largeur maximale des images */
+.image-container img {
+  max-width: 20vw; /* Remplacez '100px' par la largeur maximale souhaitée */
+  height: auto;
+  /* Garantit que l'aspect ratio de l'image est préservé */
+}
+
+.image-container figcaption {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer {
+  background-image: url(images/499P.jpeg);
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.contacts {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 100px;
+  background-color: rgba(50, 50, 50, 0.6);
+}
